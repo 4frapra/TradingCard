@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#654321"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:src="@drawable/wolfcard1"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:padding="8dp"
+        android:text="Lycan"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Deadly(1-10): 8"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Fifth oldest supernatural creature to exist"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Up to 8 feet or less, bipedal and quadrupedal, eye color commonly brown, any fur color, infectious bite"
+        android:textSize="16sp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="#00ff00"
+        android:text="Strengths: Speed, agility, heightened senses"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:text="Weaknesses: Silver, full moon"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:text="Population status: Still around"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
